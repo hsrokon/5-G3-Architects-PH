@@ -13,9 +13,9 @@
 
 </head>
 
-<body class="mb-32">
+<body>
     
-    <header class=" bg-[#FF900E1A] pb-10">
+    <header class=" bg-[#FF900E1A] pb-14">
         <div class="flex justify-between flex-col md:flex-col lg:flex-row items-center pt-12 px-20 lg:px-20 xl:px-32 gap-4">
             <div>
                 <a href="">
@@ -141,10 +141,11 @@
         </div>
       </section>
       <!-- third-section -->
-       <section class="w-11/12 mx-auto mt-14 xl:mt-20">
-            <div class="pl-4 xl:pl-28">
+       <section class="w-11/12 mx-auto mt-14 xl:mt-28">
+            <div class="pl-4 xl:pl-28 lg:flex lg:gap-10 lg:items-center lg:mb-20">
                 <h2 class="font-bold text-4xl">Some Facts</h2>
-                <p class="mt-4 text-sm text-slate-700 line-clamp-4 md:w-11/12 lg:w-10/12 xl:w-11/12">Here are some key facts about our work: from award-winning projects to innovative design solutions, our achievements speak for themselves. Explore the milestones that define our success.</p>
+                <div class="hidden lg:block h-12 w-1 bg-[#FF900E]"></div>
+                <p class="mt-4 text-sm text-slate-700 line-clamp-4 md:w-11/12 lg:w-10/12 xl:w-9/12">Here are some key facts about our work: from award-winning projects to innovative design solutions, our achievements speak for themselves. Explore the milestones that define our success.</p>
             </div>
             <div class="grid grid-cols-2 gap-4 mt-8 xl:mt-16 w-11/12 mx-auto md:ml-28 lg:ml-10 xl:ml-28 lg:grid-cols-4 lg:gap-0">
                 <div class="border-solid border-2 border-[#FF900E] rounded-md p-4 h-40 w-40 lg:h-48 lg:w-48 lg:gap-2 flex flex-col items-center">
@@ -169,5 +170,28 @@
                 </div>
             </div>
        </section>
+       <!-- last-section -->
+        <section class="mt-16 md:mt-20 lg:mt-32 mb-12 md:mb-24 lg:mb-28 text-center ">
+            <div>
+                <h1 class="text-3xl font-bold"> Our Sponsors</h1>
+                <p class="text-sm text-slate-500 font-semibold w-10/12 mx-auto mb-10 md:w-8/12">We partner with industry leaders who support our mission to innovate and inspire through cutting-edge architectural design. Their contributions help us shape the future of our built environment.</p>
+                <div class="grid grid-cols-3 md:grid-cols-5 gap-6 w-10/12 px-4 mx-auto">
+                    <img src="images/sponsors/amazon.png" alt="">
+                    <img src="images/sponsors/google.png" alt="">
+                    <img src="images/sponsors/figma.png" alt="">
+                    <img class="hidden md:block" src="images/sponsors/telerama.png" alt="">
+                    <img class="hidden md:block" src="images/sponsors/spotify.png" alt="">
+                </div>    
+
+                <div class="grid md:hidden grid-cols-2 gap-6 w-9/12 px-12 mt-4 mx-auto">
+                    <img src="images/sponsors/telerama.png" alt="">
+                    <img src="images/sponsors/spotify.png" alt="">    
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="w-10/12 mx-auto bg-[#FF900E1A] p-8">
+            <p class="text-center"> All rights reserved copyright&commat;2023 startup landing page design</p>
+        </footer>
 </body>
 </html>
